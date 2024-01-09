@@ -1,0 +1,7 @@
+DROP TABLE person IF EXISTS;
+
+CREATE TABLE person  (
+    id BIGINT AUTO_INCREMENT NOT NULL PRIMARY KEY, 
+    firstname VARCHAR(20),
+    lastname VARCHAR(20)
+);
